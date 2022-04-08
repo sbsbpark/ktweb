@@ -140,7 +140,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #424042;
+		color: #483949;
 	}
 
 	em, i {
@@ -1972,7 +1972,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #2EBCB6;
+			border-color: #df7366;
 		}
 
 	form input[type="text"],
@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #2EBCB6;
+		background: #df7366;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2077,7 +2077,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: rgb(42, 214, 206)
+			background: #ef8376;
 		}
 
 		input[type="button"].alt,
@@ -2176,8 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		/* background-image: url("../../images/header.jpg"); */
-		background-color: #424042;
+		background-image: url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2258,7 +2257,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #2e2d2e;
+			background: #1C0920;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2339,9 +2338,8 @@ input, select, textarea {
 
 				#nav > ul > li.active {
 					border-color: rgba(192, 192, 192, 0.35);
-					font-weight: bold;
 				}
-		
+
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: inherit;
@@ -2551,7 +2549,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: #2ebcb5ae;
+				background-color: rgba(239, 131, 118, 0.75);
 			}
 
 		.carousel .forward {
