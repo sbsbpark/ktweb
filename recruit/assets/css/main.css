@@ -2299,8 +2299,8 @@ input, select, textarea {
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px #4acaa8;
-			border-right: solid 1px #4acaa8;
+			border-left: solid 1px #fff;
+			border-right: solid 1px #fff;
 		}
 
 			#nav > ul:before, #nav > ul:after {
@@ -2311,8 +2311,8 @@ input, select, textarea {
 				top: 50%;
 				margin-top: -2px;
 				height: 5px;
-				border-top: solid 1px #4acaa8;
-				border-bottom: solid 1px #4acaa8;
+				border-top: solid 1px #fff;
+				border-bottom: solid 1px #fff;
 			}
 
 			#nav > ul:before {
